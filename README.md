@@ -1,6 +1,9 @@
 # Music Recommendation System - Beats Per Minute Prediction
 
-This project focuses on building a music recommendation system by predicting the "Beats Per Minute" (BPM) of songs based on various audio features. The goal is to leverage machine learning techniques to accurately estimate the tempo of a track, which can be a valuable feature in music recommendation algorithms.
+This project focuses on building a music recommendation system by predicting the "Beats Per Minute" (BPM) of songs based on various audio features as a submition for a Kaggle competition. The goal is to leverage machine learning techniques to accurately estimate the tempo of a track.
+
+Competition link:
+Walter Reade and Elizabeth Park. Predicting the Beats-per-Minute of Songs. https://kaggle.com/competitions/playground-series-s5e9, 2025. Kaggle.
 
 ## Project Overview
 
@@ -49,12 +52,4 @@ To run the project, execute the code cells in the provided Jupyter Notebook (or 
 
 ## Results
 
-The project aims to achieve a low RMSE on the test set, indicating accurate BPM predictions. The ensemble model is expected to provide better performance compared to individual models.
-
-## Future Work
-
-*   Further feature engineering to create more informative features.
-*   Exploring other advanced regression models.
-*   Implementing more sophisticated ensemble techniques.
-*   Investigating alternative evaluation metrics.
-*   Deploying the trained model for real-time BPM prediction.
+The project achieved a low RMSE on the prediction set, but the dataset appears to be too noisy or too short, not allowing the model to go much further. The ensemble model is expected to provide better performance compared to individual models.
